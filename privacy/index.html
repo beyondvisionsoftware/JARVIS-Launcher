@@ -42,7 +42,6 @@
 
     /* Header */
     header {
-      text-align: center;
       padding-bottom: 24px;
       margin-bottom: 24px;
       border-bottom: 1px solid var(--card-border);
@@ -52,7 +51,7 @@
       font-size: 32px;
       font-weight: 700;
       color: #ffffff;
-      margin-bottom: 12px;
+      margin-bottom: 16px;
       letter-spacing: -0.5px;
       text-align: center;
     }
@@ -62,23 +61,13 @@
       color: var(--text-muted);
       display: flex;
       flex-direction: column;
-      align-items: center;
-      gap: 5px;
+      align-items: flex-start;
+      text-align: left;
+      gap: 6px;
     }
 
-    .meta div strong,
-    .meta span strong {
+    .meta div strong {
       color: var(--accent);
-    }
-
-    .meta-dates {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 12px;
-      margin-top: 3px;
-      font-size: 12.5px;
-      color: var(--text-dim);
     }
 
     /* Hero Notice */
@@ -225,11 +214,8 @@
       <div class="meta">
         <div><strong>Application:</strong> JARVIS Launcher</div>
         <div><strong>Publisher:</strong> Beyond Vision Software</div>
-        <div class="meta-dates">
-          <span><strong>Effective Date:</strong> November 11, 2026</span>
-          <span>&bull;</span>
-          <span><strong>Last Updated:</strong> November 11, 2026</span>
-        </div>
+        <div><strong>Effective Date:</strong> November 11, 2026</div>
+        <div><strong>Last Updated:</strong> November 11, 2026</div>
       </div>
     </header>
 
