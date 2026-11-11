@@ -42,43 +42,43 @@
 
     /* Header */
     header {
+      text-align: center;
       padding-bottom: 24px;
       margin-bottom: 24px;
       border-bottom: 1px solid var(--card-border);
     }
 
-    .badge {
-      display: inline-block;
-      padding: 4px 12px;
-      background: var(--accent-glow);
-      color: var(--accent);
-      border: 1px solid rgba(0, 212, 255, 0.35);
-      border-radius: 999px;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.8px;
-      text-transform: uppercase;
-      margin-bottom: 12px;
-    }
-
     h1 {
-      font-size: 30px;
+      font-size: 32px;
       font-weight: 700;
       color: #ffffff;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
       letter-spacing: -0.5px;
+      text-align: center;
     }
 
     .meta {
-      font-size: 13px;
+      font-size: 13.5px;
       color: var(--text-muted);
       display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
     }
 
+    .meta div strong,
     .meta span strong {
       color: var(--accent);
+    }
+
+    .meta-dates {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 3px;
+      font-size: 12.5px;
+      color: var(--text-dim);
     }
 
     /* Hero Notice */
@@ -221,12 +221,15 @@
   <div class="container">
 
     <header>
-      <div class="badge">Official Policy</div>
-      <h1>JARVIS Launcher's Privacy Policy</h1>
+      <h1>Privacy Policy</h1>
       <div class="meta">
-        <span><strong>Publisher:</strong> Beyond Vision Software</span>
-        <span><strong>Effective Date:</strong> November 11, 2026</span>
-        <span><strong>Last Updated:</strong> November 11, 2026</span>
+        <div><strong>Application:</strong> JARVIS Launcher</div>
+        <div><strong>Publisher:</strong> Beyond Vision Software</div>
+        <div class="meta-dates">
+          <span><strong>Effective Date:</strong> November 11, 2026</span>
+          <span>&bull;</span>
+          <span><strong>Last Updated:</strong> November 11, 2026</span>
+        </div>
       </div>
     </header>
 
@@ -378,8 +381,7 @@
       </p>
       <p style="margin-top: 8px;">
         <strong>Publisher:</strong> Beyond Vision Software<br>
-        <strong>Support Email:</strong> <a href="mailto:beyondvisionsoftware.help@gmail.com">beyondvisionsoftware.help@gmail.com</a><br>
-        <strong>Official Website / Repo:</strong> <a href="https://beyondvisionsoftware.github.io/JARVIS-Launcher/" target="_blank" rel="noopener">https://beyondvisionsoftware.github.io/JARVIS-Launcher/</a>
+        <strong>Support Email:</strong> <a href="mailto:beyondvisionsoftware.help@gmail.com">beyondvisionsoftware.help@gmail.com</a>
       </p>
     </div>
 
